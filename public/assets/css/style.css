@@ -1,7 +1,29 @@
-li {
+  h1{
+    letter-spacing: 4px;
+    text-align: center;
+    color: goldenrod;
+}
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 35%;
+    height: auto;
+    background-color: lightgray;
+}
+
+  .liR {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: #573870;
+    color: #b572e7;
+  }
+
+  .liL {
+    padding: 5px;
+    margin: 5px;
+    background: #28ac80;
   }
   
   .label {
@@ -16,4 +38,35 @@ li {
   
   .form-group {
     margin-bottom: 5px;
+  }
+  .main-container {
+    background: rgb(65, 63, 63);
+    color: lightgoldenrodyellow;
+  }
+  .container {
+    display: flex;
+  }
+  div button {
+    float: right;
+    margin-left: -50%;
+    
+
+}
+  .divL {
+    box-sizing: border-box;
+    padding: 10px;
+    background: #ffe9c6;
+    width: 40%;
+    color: gold; 
+  }
+  .divR {
+    box-sizing: border-box;
+    padding: 10px;
+    background: #c55f59;
+    width: 60%; 
+    color: #6d29a1;
+  }
+  .burger_button {
+    float: right;
+    
   }
